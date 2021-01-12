@@ -48,9 +48,9 @@ WebServer 的运行
 ```
 ./main
 ```
-# 在另一终端下的测试
+## 在另一终端下的测试
 ```
-./stress_client
+./stress_client 127.0.0.1 2222 100
 ```
 
 [WebBench](http://home.tiscali.cz/~cz210552/webbench.html) 的HTTP 长连接的测试
